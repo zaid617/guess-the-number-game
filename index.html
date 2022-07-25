@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main" id="main">
+        <form onsubmit="clickon();return false" class="box animate__animated animate__fadeInDown" id="box">
+            <h1 class="h1">Number Guess Game</h1>
+            <div class="flex"><input  type="number" id="num" required min="1" max="10" placeholder="Enter a number between 1 to 10">
+            <button class="btn" type="submit">Check</button></div>
+            <div id="error"></div>
+            </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

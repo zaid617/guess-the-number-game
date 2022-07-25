@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url('https://www.pinclipart.com/picdir/big/269-2699005_wave-silhouette-clip-art.png') no-repeat center/cover;
+     height: 100vh;
+}
+h1{
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: underline;font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #03045e;
+    font-size: 35px;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 400px;
+    height: 150px;
+    padding: 60px;
+    border: 2px solid #296b9f;
+    backdrop-filter: blur(30px);
+    border-radius: 20px;
+    box-shadow: 0px 0px 60px 1px black;
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 400px;
+    height: 150px;
+    padding: 60px;
+    border: 2px solid #296b9f;
+    backdrop-filter: blur(30px);
+    border-radius: 20px;
+    box-shadow: 0px 0px 60px 1px black;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    appearance: none;
+}
+input{
+    padding: 7px;
+    border-radius: 10px;
+    text-align: center;
+    width: 250px;
+}
+.btn{
+    display: block;
+    padding: 7px;
+    border-radius: 8px;
+    width: 150px;
+    margin: 5px;
+    background-color: #48cae4;
+    border: 2px solid #03045e;
+    color: #03045e;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #0077b6;
+    letter-spacing: 3px;
+    border: 2px solid white;
+    color: white;
+}
+
+#error{
+    color: red;
+    font-size: 20px;
+    position: absolute;
+    top: 220px;
+    font-weight: 600;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
